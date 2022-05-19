@@ -72,3 +72,18 @@ input {
     width: 527px;
     height: 650px;
 }
+
+button{
+    width: 150px;
+    height: 40px;
+    font-family: 'Poppins';
+    border-radius: 25px;
+    color: white;
+    background-color: blue;
+}
+
+input,
+button,
+submit {
+    border: none;
+}
