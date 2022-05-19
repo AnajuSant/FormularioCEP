@@ -4,6 +4,7 @@ function cep() {
 
     if (local.match(regex)) {
         document.getElementById("Cep").classList.remove("balao-vermelho");
+        document.getElementById("balaored").style.display = "none";
     } else {
         document.getElementById("balaored").style.display = "block";
         document.getElementById("Cep").classList.add("balao-vermelho");
