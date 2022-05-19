@@ -10,7 +10,7 @@ function cep() {
         document.getElementById("Cep").classList.add("balao-vermelho");
         return false;
     }
-    fetch(`http://viacep.com.br/ws/${local}/json/`)
+    fetch(`https://viacep.com.br/ws/${local}/json/`)
         .then((response) => {
             return response.json();
             cep;
